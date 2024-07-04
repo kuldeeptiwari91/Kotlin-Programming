@@ -3,7 +3,7 @@ import java.util.*
 fun main() {
     println("Enter the Day!")
     val day: String = readln().lowercase(Locale.getDefault())
-    // 'when' is a conditional expression in Kotlin. It is similar to the switch-case in Java.
+    // 'when' is a conditional expression in Kotlin. It is similar to the switch-case in java.
     // It is used to simplify similar conditions.
     when (day) {
         "monday" -> println("It's Monday")
