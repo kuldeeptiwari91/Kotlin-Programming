@@ -1,5 +1,4 @@
 import java.util.*
-
 fun main() {
     println("Enter the Day!")
     val day: String = readln().lowercase(Locale.getDefault())
