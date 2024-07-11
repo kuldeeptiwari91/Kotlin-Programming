@@ -5,4 +5,12 @@ fun main() {
     println(numbers.size)
     // get(index: Int) :- this method is used to get the value at particular index
     println(numbers.get(4))
+    // indexOf(element: T) : this method is used to get the first occurrence of the element in the array
+    println(numbers.indexOf(2))
+    // sum(): Returns the sum of all elements in the array (only for numeric arrays).
+    println(numbers.sum())
+    //average(): Returns the average value of elements in the array (only for numeric arrays).
+    println(numbers.average())
+    //count(): Returns the number of elements in the array.
+    println(numbers.count())
 }
