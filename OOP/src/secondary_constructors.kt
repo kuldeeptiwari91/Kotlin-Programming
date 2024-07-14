@@ -8,13 +8,15 @@ fun main() {
 class Users(var name: String, var lastName: String, var age: Int) {
     // Secondary constructor: Provides an alternative way to create objects
     // Calls the primary constructor with default values for lastName and age
-    constructor(name: String) : this(name, "LastName", 0)
-}
 
-/*
+    /*
      Secondary Constructor:
    - The secondary constructor provides an alternative way to create objects of the `Users` class.
    - It takes one parameter, `name`, and calls the primary constructor with default values for `lastName` ("LastName") and `age` (0).
    - The `this` keyword is used to delegate to the primary constructor.
    - This allows for more flexibility in object creation, providing default values when not all parameters are provided.
 */
+
+    constructor(name: String) : this(name, "LastName", 0)
+}
+
