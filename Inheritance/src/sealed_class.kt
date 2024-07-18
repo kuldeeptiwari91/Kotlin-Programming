@@ -15,7 +15,7 @@ fun getData(result: Result) {
     }
 }
 
-// Sealed class Result which restricts the hierarchy to a specific set of subclasses
+// Sealed class Result which restricts the hierarchy to a specific set of subclasses.
 sealed class Result(val message: String) {
     // Method to display the message
     fun showMessage() {
