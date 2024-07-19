@@ -1,5 +1,5 @@
 fun main() {
-val car = Car("BMW","Blue")
+
 }
 
 
