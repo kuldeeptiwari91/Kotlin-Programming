@@ -1,2 +1,2 @@
 # Kotlin-Programming
-Github Repo for Kotlin
+## This repository contains the code of the Kotlin.
